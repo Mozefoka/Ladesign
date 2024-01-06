@@ -1,0 +1,32 @@
+.footer {
+	padding: 95px 0 95px 0;
+	background-color: #f7f7f7;
+
+	&__contacts {
+		display: flex;
+		justify-content: center;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+
+		a {
+			color: #878787;
+		}
+	}
+
+	&__houzz {
+		margin-right: 30px;
+		letter-spacing: 0.15em;
+	}
+
+	&__instagram {
+		letter-spacing: 0.15em;
+	}
+
+	&__la {
+		color: #878787;
+		text-align: center;
+		font-family: "Roboto";
+		font-weight: 300;
+		font-size: 13px;
+	}
+}

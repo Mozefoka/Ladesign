@@ -1,0 +1,141 @@
+.portfolio {
+	padding-bottom: 135px;
+
+	@media (max-width: 769px) {
+		padding-bottom: 80px;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	&__title {
+		scroll-margin-top: 170px;
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	&__buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 70px;
+		justify-content: center;
+		margin-bottom: 40px;
+
+		@media (max-width: 769px) {
+			gap: 30px;
+		}
+
+		@media (max-width: 406px) {
+			justify-content: stretch;
+		}
+	}
+
+	.btn {
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		background-color: inherit;
+		transition: all 0.3s ease;
+
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+
+	&__images {
+		margin-bottom: 40px;
+	}
+
+	&__work-images {
+		display: none;
+	}
+
+	&__apartment-images {
+		display: none;
+	}
+
+	&__house-images {
+		display: none;
+	}
+
+	&__premise-images {
+		display: none;
+	}
+
+	.grid {
+		display: grid;
+		gap: 20px;
+		grid-template-areas:
+			"A B C D"
+			"A E F F"
+			"G G F F"
+			"H I J J";
+
+		@media (max-width: 769px) {
+			grid-template-areas:
+				"A  B"
+				"A  C"
+				"D E"
+				"G G"
+				"F F"
+				"F F"
+				"H I"
+				"J J";
+		}
+
+		@media (max-width: 321px) {
+			grid-template-areas:
+				"A"
+				"A"
+				"B"
+				"C"
+				"D"
+				"E"
+				"G"
+				"F";
+		}
+	}
+
+	.grid-1 {
+		grid-area: A;
+	}
+	.grid-2 {
+		grid-area: B;
+	}
+	.grid-3 {
+		grid-area: C;
+	}
+	.grid-4 {
+		grid-area: D;
+	}
+	.grid-5 {
+		grid-area: E;
+	}
+	.grid-6 {
+		grid-area: F;
+	}
+	.grid-7 {
+		grid-area: G;
+	}
+	.grid-8 {
+		grid-area: H;
+
+		@media (max-width: 321px) {
+			display: none;
+		}
+	}
+	.grid-9 {
+		grid-area: I;
+
+		@media (max-width: 321px) {
+			display: none;
+		}
+	}
+	.grid-10 {
+		grid-area: J;
+
+		@media (max-width: 321px) {
+			display: none;
+		}
+	}
+}

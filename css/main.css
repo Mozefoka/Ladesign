@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("@/assets/fonts/Roboto-Condensed/RobotoCondensed-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("@/assets/fonts/Roboto-Condensed/RobotoCondensed-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("@/assets/fonts/Roboto-Condensed/RobotoCondensed-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("@/assets/fonts/Roboto-Condensed/RobotoCondensed-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("@/assets/fonts/Roboto-Condensed/Roboto-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("@/assets/fonts/Roboto-Condensed/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("@/assets/fonts/Roboto-Condensed/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  max-width: 1295px;
+  margin: 0 auto;
+  padding: 0 47px;
+}
+@media (max-width: 321px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.title {
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 45px;
+}
+@media (max-width: 321px) {
+  .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

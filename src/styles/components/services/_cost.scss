@@ -1,0 +1,88 @@
+.cost {
+	padding-bottom: 150px;
+
+	@media (max-width: 769px) {
+		padding-bottom: 70px;
+	}
+
+	&__title {
+		max-width: 400px;
+		text-align: center;
+		margin: 0 auto 50px;
+	}
+
+	&__content-items {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+
+		@media (max-width: 769px) {
+			display: block;
+		}
+	}
+
+	&__content-item {
+		width: 100%;
+		margin-bottom: 55px;
+		border: 1px solid #d5d5d5;
+		text-align: center;
+	}
+
+	&__content-item-value {
+		margin: 30px 0 15px 0;
+		font-size: 30px;
+		letter-spacing: 2.4px;
+		text-transform: uppercase;
+	}
+
+	&__content-item-price {
+		margin-bottom: 30px;
+		color: #878787;
+		font-size: 25px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	&__content-item-btn {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		background-color: white;
+		border-top: 1px solid #d5d5d5;
+		padding: 20px 0;
+		color: #393246;
+		letter-spacing: 2.1px;
+		text-transform: uppercase;
+	}
+
+	&__content-item-recommend {
+		border: 2px solid #393246;
+
+		button {
+			background-color: #393246;
+			color: white;
+		}
+
+		&::before {
+			content: "recommend";
+			position: relative;
+			top: -7px;
+			padding: 0 10px;
+			background-color: white;
+			letter-spacing: 2.1px;
+			text-transform: uppercase;
+		}
+	}
+
+	&__content-button {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin: 0 auto;
+		background-color: white;
+		letter-spacing: 2.1px;
+		text-transform: uppercase;
+	}
+}

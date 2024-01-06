@@ -1,0 +1,16 @@
+.projects {
+	padding-bottom: 140px;
+	@media (max-width: 769px) {
+		padding-bottom: 105px;
+	}
+	@media (max-width: 321px) {
+		padding-bottom: 75px;
+	}
+	&__title {
+		text-align: center;
+		margin-bottom: 50px;
+		@media (max-width: 321px) {
+			font-size: 20px;
+		}
+	}
+}

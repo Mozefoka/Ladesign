@@ -1,0 +1,101 @@
+.top {
+	background-image: url("/src/assets/images/ladesign-bg.png"), url("/src/assets/images/ladesign.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 150px;
+
+	@media (max-width: 769px) {
+		margin-bottom: 100px;
+	}
+
+	&__banner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100vh;
+		margin: 0 auto;
+		padding-top: 100px;
+		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	&__banner--max-width {
+		max-width: 650px;
+	}
+
+	&__banner-title {
+		font-weight: 300;
+		font-size: 140px;
+		margin-bottom: 25px;
+
+		@media (max-width: 661px) {
+			font-size: 100px;
+		}
+		@media (max-width: 501px) {
+			font-size: 75px;
+		}
+
+		@media (max-width: 401px) {
+			font-size: 60px;
+		}
+	}
+
+	&__banner-title--size {
+		font-weight: 300;
+		font-size: 40px;
+		margin-bottom: 25px;
+		@media (max-width: 321px) {
+			font-size: 30px;
+		}
+	}
+
+	&__banner-sub-title {
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 27px;
+		letter-spacing: 0.08em;
+	}
+
+	&__banner-sub-title--size {
+		@media (max-width: 661px) {
+			font-size: 19px;
+		}
+
+		@media (max-width: 501px) {
+			font-size: 16px;
+		}
+
+		@media (max-width: 501px) {
+			font-size: 14px;
+		}
+	}
+
+	&__banner-sub-title--error-size {
+		font-size: 40px;
+		font-weight: 300;
+		line-height: normal;
+		letter-spacing: 3.2px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+
+	&__not-exist {
+		font-family: "Roboto";
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 1.5;
+		margin-bottom: 40px;
+	}
+}
+
+.top--bg {
+	background-image: url("/src/assets/images/work/bg.png"), url("/src/assets/images/work/picture.jpg");
+}
+
+.top--error-bg {
+	background-image: url("/src/assets/images/error-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 0;
+}
